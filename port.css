@@ -6,7 +6,7 @@
 }
 body {
   color: #ededed;
-  background: #081b29;
+ 
 }
 
 header {
@@ -139,11 +139,13 @@ header {
 
 
 .about{
-    color: black;
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 1.5rem;
+    background: url("what.jpg") no-repeat;
+    color: white;
     
 
 }
@@ -156,12 +158,28 @@ header {
 
 }
 .about-text h2{
-    font-size: 60px;
+    font-size: 70px;
+}
+.about-text h2 span{
+    font-size: 70px;
+    color:#0ef;
 }
 .about-text h4{
-    color: #0ef;
+    font-size: 40px;
+    color:#0ef;
+    margin-top: 60px;
+    font-weight: 600;
+    line-height: 1.7;
+    
 
 }
+.about-text p{
+    margin-top: 75px;
+    color: aliceblue;
+  
+    
+}
+
 
 
 

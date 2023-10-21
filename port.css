@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "popins", sans-serif;
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
 }
 body {
   color:black;
- 
+
 }
 
 header {
@@ -44,7 +45,7 @@ header {
   animation-delay: calc(0.2 * var(--i));
 }
 .navbar a:hover {
-  color: lightyellow;
+  color: rgb(16, 227, 30);
 }
 .home {
   position: relative;
@@ -146,6 +147,7 @@ header {
     gap: 1.5rem;
     background: url("what.jpg") no-repeat;
     color: white;
+    
     
 
 }
@@ -273,6 +275,78 @@ header {
     height:60%;
 }
 
+
+section{
+ display: flex;
+ flex-wrap: wrap;
+
+}
+.heading{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
+  text-underline-offset: 10px;
+
+}
+.bar{
+  font-size: 25px;
+}
+
+
+.tech .bar{
+    margin-top: 40px 0;
+}
+
+.tech .bar .bar:first-child{
+  margin-top: 0;
+}
+
+.tech .bar .bar:last-child{
+  margin-bottom: 0;
+}
+.tech .bar .info{
+  margin-bottom: 5px;
+}
+
+.tech .bar .info span{
+  font-size: 17px;
+  font-weight: 600;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+.tech .bar .bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact{
     display: grid;
     background: url("sameer.jpg");
@@ -360,7 +434,85 @@ header {
 }
 
 
+.contactform form{
+ position: relative;
 
+}
+.contactform form input,form textarea{
+   outline: none;
+  border: none;
+  padding: 18px;
+  width: 50%;
+  background: #fff;
+  color: #081b29;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+ font-weight: 600;
+ border-radius: 0.5rem;
+  margin-left: 100px;
+
+}
+.contactform textarea{
+  resize: none;
+  height: 220px;
+
+}
+
+.contactform .send{
+ display: inline-block;
+ width: 50%;
+  margin-left: 100px;
+
+  padding: 14px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 18px;
+  
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;  
+
+
+}
+
+.contactform .send:hover{
+   box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.last-text p{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background:rgb(7, 85,91);
+  font-weight: 600;
+  margin-top:0px;
+}
+.top{
+ 
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
+.top i{
+  background: #0ef;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+
+.experience h2{
+  
+  font-size: 50px;
+    align-items: center;
+  
+
+}
+.experience h2 span{
+      color:#0ef
+}
 
 
 

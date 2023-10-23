@@ -58,10 +58,12 @@ header {
   display: flex;
   align-items: center;
   padding: 10px 15% 0;
+  
 }
 
 .homeok {
   max-width: 600px;
+  color: whitew;
 }
 .homeok h3 {
   font-size: 28px;

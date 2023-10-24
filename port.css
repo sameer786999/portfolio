@@ -65,6 +65,9 @@ header {
   max-width: 600px;
   color: white;
 }
+.animation{
+  padding: 20px;
+}
 .homeok h3 {
   font-size: 28px;
   font-weight: 700;
@@ -147,7 +150,8 @@ header {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 1.5rem;
-    background: url("what.jpg") no-repeat;
+   background: url("https://www.icegif.com/wp-content/uploads/cool-wallpapers-icegif-1.gif") no-repeat;
+   background-size: 100%;
     color: white;
     
     
@@ -155,10 +159,10 @@ header {
 }
 .about-content img{
     padding-bottom: 20%;
-    max-width: 630px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
+     margin-left: 200px;
+     margin-top: 200px;
+     color: #081b29;
+     
 
 }
 .about-text h2{
@@ -179,7 +183,7 @@ header {
 }
 .about-text p{
     margin-top: 75px;
-    color: aliceblue;
+    color:rgb(243, 243, 10);
     font-size: 15px;
  
   
@@ -508,7 +512,7 @@ section{
   text-align: center;
   padding: 25px 0;
   color: #fff;
-  font-size: 15px;
+  font-size: 15px                                             ;
   background:rgb(7, 85,91);
   font-weight: 600;
   margin-top:0px;

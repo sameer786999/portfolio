@@ -293,6 +293,22 @@ section{
  flex-wrap: wrap;
 
 }
+.experience{
+  background: url("what.jpg");
+  height: 1000px;
+}
+.experience h2{
+  
+  font-size: 50px;
+  margin-top: 40px;
+    align-items: center;
+  
+
+}
+.experience h2 span{
+      color:#0ef
+}
+
 .start{
   width: 600px;
   height:  500px;
@@ -357,21 +373,7 @@ section{
 }
 
 
-.experience{
-  background: url("what.jpg");
-  height: 1000px;
-}
-.experience h2{
-  
-  font-size: 50px;
-  margin-top: 40px;
-    align-items: center;
-  
 
-}
-.experience h2 span{
-      color:#0ef
-}
 
 
 
@@ -432,7 +434,7 @@ section{
 
 }
 
-.contactsection li a:hover{
+.contactsection li i:hover{
     transform: scale(1.01) translateY(-5px);
     color: #0ef;
 }
